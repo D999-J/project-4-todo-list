@@ -1,0 +1,8 @@
+This is a good start, but is a bit small for a course project.
+
+At a minimum, you should be able to interact with your tool 
+(as opposed to just running static code).
+
+Don't forget to list your sources.
+
+(p)

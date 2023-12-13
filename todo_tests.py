@@ -3,6 +3,7 @@ import todo
 
 class MyTestCase(unittest.TestCase):
 
+    # zk Without any asserts, these tests aren't automatic.
     def test_add_task(self):
         task = "Learn Python"
         task = "Finish project 4 on time"
