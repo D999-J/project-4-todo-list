@@ -2,7 +2,7 @@
 
 tasks = []
 
-
+#ChatGPT. (n.d.). Python code for adding and viewing tasks in a To-Do List. [Source code].
 def add_task(task):
     tasks.append({"task": task, "completed": False})
     print("Task added successfully!")
@@ -83,5 +83,5 @@ for i, task in enumerate(tasks, 1):
 status = "Completed" if task["completed"] else "Not Completed"
 
 print(f"{i}. {task['task']} - {status}")'''
-
+#
 #ChatGPT. (n.d.). Python code for adding and viewing tasks in a To-Do List. [Source code].

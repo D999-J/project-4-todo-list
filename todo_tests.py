@@ -11,7 +11,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_view_tasks_empty_list(self):
         view_tasks_output = todo.view_tasks()
-
+#
     def test_view_tasks(self):
         todo.add_task("Learn Python")
         todo.add_task("Join the virtual training")
