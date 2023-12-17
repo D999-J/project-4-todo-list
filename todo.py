@@ -57,3 +57,30 @@ view_tasks()
 
 delete_task(3)
 view_tasks()
+
+
+
+
+
+'''def add_task(task):
+
+tasks.append({"task": task, "completed": False})
+
+print("Task added successfully!")
+
+def view_tasks():
+
+if not tasks:
+
+print("No tasks in the To-Do List.")
+
+else:
+
+print("Tasks:")
+
+for i, task in enumerate(tasks, 1):
+
+status = "Completed" if task["completed"] else "Not Completed"
+
+print(f"{i}. {task['task']} - {status}")'''
+#ChatGPT. (n.d.). Python code for adding and viewing tasks in a To-Do List. [Source code].
